@@ -1,0 +1,4 @@
+#Mon Mar 19 16:48:20 BRT 2018
+base.0=/Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,344 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12
+MERGED from [:image_picker] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/image_picker/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_facebook_login] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/flutter_facebook_login/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_sign_in] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/google_sign_in/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_webview_plugin] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/flutter_webview_plugin/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:2:1-32:12
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/83c4cf6770677f484248a094318ee056/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:21:1-36:12
+MERGED from [com.android.support:appcompat-v7:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/9d2dc7e57f8f575808289d0a08ed095f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/76721acefdd843f74966ee20053efd60/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:17:1-39:12
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/58e861fec19f1fbf65805fa7d9d8c403/AndroidManifest.xml:21:1-45:12
+MERGED from [com.android.support:cardview-v7:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/3e27d145efe5de2c2f0e3005d020b2ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.1.aar/e41e9f63cac2386cd484ac6f467dd5e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/6d03f154384cf20415941738523b0216/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/9c08ff7ec54ac19c399df0c5db95df08/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/acec3613e9c8b44aac86dff70eda85de/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/2dbf8a28b2254f5090e7f9040fab64e1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/4db060ea33856018545c1d5f8da0aba5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/034ad24b76abf53fbc3a6e47fa7a3664/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/7d5ce82bf5055357b95e0ad21a8980f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/fe9119846bdf8cbf813e79d5f51fc38c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/efc4c4b5bb3bf5a7a7533c0b575d8fa6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/c9d9d42132a5ee088123593eb8fb1b40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/2ea49b2059346425336681ffa34ef1cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/cf8a93b5757f4b5d373a55ef59cca835/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/e17f8e16b087d2428461bbd7711cf97b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6d42a274d0252d3ca3743e7574d8986b/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/1b331f9bc1b96dbd80cca5c1365d6e24/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/642e0b007bc55c6de36bf6886a56d14c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f6dc4d65105795e7bf0626b5aaa7676e/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/e476835d52d2a67b2114fbbb26881809/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/40854155eef21be5fb04169d007a22e7/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12
+	package
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:8:5-66
+MERGED from [:google_sign_in] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/google_sign_in/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/google_sign_in/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:8:22-64
+application
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:15:5-56:19
+MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:15:5-30:19
+MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:15:5-30:19
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/83c4cf6770677f484248a094318ee056/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/83c4cf6770677f484248a094318ee056/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/76721acefdd843f74966ee20053efd60/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/76721acefdd843f74966ee20053efd60/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:22:5-37:19
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/58e861fec19f1fbf65805fa7d9d8c403/AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/58e861fec19f1fbf65805fa7d9d8c403/AndroidManifest.xml:28:5-43:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/acec3613e9c8b44aac86dff70eda85de/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/acec3613e9c8b44aac86dff70eda85de/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/2dbf8a28b2254f5090e7f9040fab64e1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/2dbf8a28b2254f5090e7f9040fab64e1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/4db060ea33856018545c1d5f8da0aba5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/4db060ea33856018545c1d5f8da0aba5/AndroidManifest.xml:22:5-26:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6d42a274d0252d3ca3743e7574d8986b/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6d42a274d0252d3ca3743e7574d8986b/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/1b331f9bc1b96dbd80cca5c1365d6e24/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/1b331f9bc1b96dbd80cca5c1365d6e24/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/642e0b007bc55c6de36bf6886a56d14c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/642e0b007bc55c6de36bf6886a56d14c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f6dc4d65105795e7bf0626b5aaa7676e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f6dc4d65105795e7bf0626b5aaa7676e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/e476835d52d2a67b2114fbbb26881809/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/e476835d52d2a67b2114fbbb26881809/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/40854155eef21be5fb04169d007a22e7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/40854155eef21be5fb04169d007a22e7/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-login:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/83c4cf6770677f484248a094318ee056/AndroidManifest.xml:28:18-44
+	android:label
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:17:9-38
+	android:icon
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:18:9-43
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:16:9-57
+activity#com.example.fluttertests.MainActivity
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:19:9-37:20
+	android:launchMode
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:21:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:24:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:25:13-55
+	android:configChanges
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:23:13-116
+	android:theme
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:20:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:30:13-32:40
+	android:value
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:32:17-37
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:31:17-82
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:35:27-74
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:38:9-39:50
+	android:value
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:39:9-48
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:38:20-65
+activity#com.facebook.FacebookActivity
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:41:9-44:48
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:44:13-45
+	android:configChanges
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:42:13-113
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:41:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:46:9-55:20
+	android:exported
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:48:13-36
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:47:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:49:13-54:29
+action#android.intent.action.VIEW
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:50:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:51:17-76
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:51:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:52:17-78
+	android:name
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:52:27-75
+data
+ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:53:17-75
+	android:scheme
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:53:23-72
+uses-sdk
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+MERGED from [:image_picker] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/image_picker/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/image_picker/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_login] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/flutter_facebook_login/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_login] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/flutter_facebook_login/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/google_sign_in/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/google_sign_in/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_webview_plugin] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/flutter_webview_plugin/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:flutter_webview_plugin] /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/flutter_webview_plugin/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/83c4cf6770677f484248a094318ee056/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/83c4cf6770677f484248a094318ee056/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/9d2dc7e57f8f575808289d0a08ed095f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/9d2dc7e57f8f575808289d0a08ed095f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/76721acefdd843f74966ee20053efd60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/76721acefdd843f74966ee20053efd60/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/58e861fec19f1fbf65805fa7d9d8c403/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/58e861fec19f1fbf65805fa7d9d8c403/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/3e27d145efe5de2c2f0e3005d020b2ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/3e27d145efe5de2c2f0e3005d020b2ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.1.aar/e41e9f63cac2386cd484ac6f467dd5e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.1.aar/e41e9f63cac2386cd484ac6f467dd5e4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/6d03f154384cf20415941738523b0216/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/6d03f154384cf20415941738523b0216/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/9c08ff7ec54ac19c399df0c5db95df08/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/9c08ff7ec54ac19c399df0c5db95df08/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/acec3613e9c8b44aac86dff70eda85de/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/acec3613e9c8b44aac86dff70eda85de/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/2dbf8a28b2254f5090e7f9040fab64e1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/2dbf8a28b2254f5090e7f9040fab64e1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/4db060ea33856018545c1d5f8da0aba5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/4db060ea33856018545c1d5f8da0aba5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/034ad24b76abf53fbc3a6e47fa7a3664/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/034ad24b76abf53fbc3a6e47fa7a3664/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/7d5ce82bf5055357b95e0ad21a8980f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/7d5ce82bf5055357b95e0ad21a8980f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/fe9119846bdf8cbf813e79d5f51fc38c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/fe9119846bdf8cbf813e79d5f51fc38c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/efc4c4b5bb3bf5a7a7533c0b575d8fa6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/efc4c4b5bb3bf5a7a7533c0b575d8fa6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/c9d9d42132a5ee088123593eb8fb1b40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/c9d9d42132a5ee088123593eb8fb1b40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/2ea49b2059346425336681ffa34ef1cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/2ea49b2059346425336681ffa34ef1cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/cf8a93b5757f4b5d373a55ef59cca835/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/cf8a93b5757f4b5d373a55ef59cca835/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/e17f8e16b087d2428461bbd7711cf97b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/e17f8e16b087d2428461bbd7711cf97b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6d42a274d0252d3ca3743e7574d8986b/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6d42a274d0252d3ca3743e7574d8986b/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/1b331f9bc1b96dbd80cca5c1365d6e24/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/1b331f9bc1b96dbd80cca5c1365d6e24/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/642e0b007bc55c6de36bf6886a56d14c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/642e0b007bc55c6de36bf6886a56d14c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f6dc4d65105795e7bf0626b5aaa7676e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f6dc4d65105795e7bf0626b5aaa7676e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/e476835d52d2a67b2114fbbb26881809/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/e476835d52d2a67b2114fbbb26881809/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/40854155eef21be5fb04169d007a22e7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/40854155eef21be5fb04169d007a22e7/AndroidManifest.xml:4:5-43
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:11:5-80
+IMPLIED from /Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/android/app/src/main/AndroidManifest.xml:1:1-57:12 reason: com.esafirm.imagepicker requested WRITE_EXTERNAL_STORAGE
+	android:name
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.CAMERA
+ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:13:22-62
+activity#com.esafirm.imagepicker.features.ImagePickerActivity
+ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:16:9-19:50
+	android:configChanges
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:18:13-59
+	android:theme
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:19:13-47
+	android:name
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:17:13-80
+provider#com.esafirm.imagepicker.helper.ImagePickerFileProvider
+ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:21:9-29:20
+	android:grantUriPermissions
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:25:13-47
+	android:authorities
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:23:13-72
+	android:exported
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:22:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:26:13-28:71
+	android:resource
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.9.2] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/imagepicker-1.9.2.aar/2942f102203d8d169ad4822221256cdd/AndroidManifest.xml:27:17-67
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/5a79438b07334c073e575cf1b9ddc5cf/AndroidManifest.xml:33:19-68
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:26.1.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/76721acefdd843f74966ee20053efd60/AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:26.1.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/76721acefdd843f74966ee20053efd60/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:26.1.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/76721acefdd843f74966ee20053efd60/AndroidManifest.xml:24:13-51
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/7e6f04197008f460dae553c28ffee0eb/AndroidManifest.xml:34:13-89
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/58e861fec19f1fbf65805fa7d9d8c403/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/58e861fec19f1fbf65805fa7d9d8c403/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/58e861fec19f1fbf65805fa7d9d8c403/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/58e861fec19f1fbf65805fa7d9d8c403/AndroidManifest.xml:40:13-70
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/acec3613e9c8b44aac86dff70eda85de/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/acec3613e9c8b44aac86dff70eda85de/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/acec3613e9c8b44aac86dff70eda85de/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/acec3613e9c8b44aac86dff70eda85de/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/4db060ea33856018545c1d5f8da0aba5/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/4db060ea33856018545c1d5f8da0aba5/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/4db060ea33856018545c1d5f8da0aba5/AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6d42a274d0252d3ca3743e7574d8986b/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6d42a274d0252d3ca3743e7574d8986b/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6d42a274d0252d3ca3743e7574d8986b/AndroidManifest.xml:26:13-58
