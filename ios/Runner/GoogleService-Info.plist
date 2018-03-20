@@ -2,27 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>21765213776-s6sme1706gls8n6mrlgtc7a1625c667e.apps.googleusercontent.com</string>
+	<string>21765213776-mvf008iem1j5a6dni0l02sku0upo25sj.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.21765213776-s6sme1706gls8n6mrlgtc7a1625c667e</string>
+	<string>com.googleusercontent.apps.21765213776-mvf008iem1j5a6dni0l02sku0upo25sj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDNWB7rJx4UDcaFhGdSDOfVHgAcO_kHHy4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>21765213776</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.example.flutterTests</string>
 	<key>PROJECT_ID</key>
 	<string>fluttertests</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fluttertests.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
 	<false></false>
 	<key>IS_GCM_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:21765213776:ios:878fab0d8134949a</string>
+	<key>DATABASE_URL</key>
+	<string>https://fluttertests.firebaseio.com</string>
 </dict>
 </plist>

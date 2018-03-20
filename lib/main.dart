@@ -5,7 +5,7 @@ import 'package:flutter_tests/camera.dart';
 import 'package:flutter_tests/map.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import 'package:location/location.dart';
-
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 void main() => runApp(new MyApp());
 
@@ -44,7 +44,16 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final FirebaseMessaging _firebaseMessaging = new FirebaseMessaging();
 
+  @override
+  void initState() {
+    super.initState();
+
+    _firebaseMessaging.requestNotificationPermissions();
+    _firebaseMessaging.configure();
+    showFCMToken(_firebaseMessaging);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -151,6 +160,22 @@ class _MyHomePageState extends State<MyHomePage> {
                   showLocation(context);
                 }
               ),
+            ),
+            new Container(
+              margin: const EdgeInsets.all(10.0),
+              width: 200.0,
+              child: new RaisedButton(
+                child: const Text('FCM Token'),
+                color: Colors.white,
+                textColor: const Color(0xFF781DB0),
+                shape: new RoundedRectangleBorder(
+                  side: new BorderSide(width: 2.0, color: const Color(0xFF781DB0)),
+                  borderRadius: new BorderRadius.circular(50.0)
+                ),
+                onPressed: () {
+                  showFCMToken(_firebaseMessaging);
+                }
+              ),
             )
           ],
         ),
@@ -209,4 +234,9 @@ showLocation(BuildContext context) async {
     );
 
   showDialog(context: context, child: dialog);
+}
+
+showFCMToken(FirebaseMessaging instance) async {
+  var token = await instance.getToken();
+  print('---------> FCM Token: $token');
 }
