@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/rodrigosuhr/Dev/flutter_tests/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/rodrigosuhr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/e39dedf1f186d1f467f1742802fd477b/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/rodrigosuhr/Dev/flutter_tutorial/flutter_tests/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {

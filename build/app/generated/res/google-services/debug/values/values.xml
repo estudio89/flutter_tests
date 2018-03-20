@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">21765213776-r0i2f2psocu1bh287jtuhid1qce4ke7c.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fluttertests.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">21765213776</string>
+    <string name="google_api_key" translatable="false">AIzaSyByJiCRSkaUw_D8szQvv5LUZPWaSTNdWq4</string>
+    <string name="google_app_id" translatable="false">1:21765213776:android:17c01f9de7607bcc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyByJiCRSkaUw_D8szQvv5LUZPWaSTNdWq4</string>
+    <string name="google_storage_bucket" translatable="false">fluttertests.appspot.com</string>
+    <string name="project_id" translatable="false">fluttertests</string>
+</resources>
