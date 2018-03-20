@@ -7,6 +7,7 @@ import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import 'package:location/location.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import "dart:convert";
 
 final GoogleSignIn _googleSignIn = new GoogleSignIn(scopes: ['email','https://www.googleapis.com/auth/contacts.readonly']);
 final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -39,6 +40,20 @@ class MyApp extends StatelessWidget {
   }
 }
 
+showPush(BuildContext context, String message) async {
+  var dialog = new SimpleDialog(
+      title: new Text(message),
+      children: <Widget>[
+        new SimpleDialogOption(
+          onPressed: () { Navigator.of(context).pop(); },
+          child: const Text('Ok'),
+        )
+      ],
+    );
+
+  showDialog(context: context, child: dialog);
+}
+
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
   final String title;
@@ -59,12 +74,18 @@ class _MyHomePageState extends State<MyHomePage> {
     _firebaseMessaging.configure(
       onMessage: (Map<String, dynamic> message) {
         print("----------> onMessage: $message");
+        var msg = new JsonEncoder.withIndent("    ").convert(message);
+        showPush(context, "onMessage: $msg");
       },
       onLaunch: (Map<String, dynamic> message) {
         print("----------> onLaunch: $message");
+        var msg = new JsonEncoder.withIndent("    ").convert(message);
+        showPush(context, "onLaunch: $msg");
       },
       onResume: (Map<String, dynamic> message) {
         print("----------> onResume: $message");
+        var msg = new JsonEncoder.withIndent("    ").convert(message);
+        showPush(context, "onResume: $msg");
       },
     );
 
