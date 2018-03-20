@@ -9,12 +9,19 @@ PODS:
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.31.1):
     - FBSDKCoreKit
+  - Firebase/Auth (4.10.1):
+    - Firebase/Core
+    - FirebaseAuth (= 4.4.4)
   - Firebase/Core (4.10.1):
     - FirebaseAnalytics (= 4.1.0)
     - FirebaseCore (= 4.0.17)
   - Firebase/Messaging (4.10.1):
     - Firebase/Core
     - FirebaseMessaging (= 2.1.1)
+  - firebase_auth (0.0.1):
+    - Firebase/Auth
+    - Firebase/Core
+    - Flutter
   - firebase_messaging (0.0.1):
     - Firebase/Core
     - Firebase/Messaging
@@ -24,6 +31,10 @@ PODS:
     - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
     - nanopb (~> 0.3)
+  - FirebaseAuth (4.4.4):
+    - FirebaseAnalytics (~> 4.1)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
   - FirebaseCore (4.0.17):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
   - FirebaseInstanceID (2.0.9):
@@ -79,6 +90,7 @@ PODS:
   - Protobuf (3.5.0)
 
 DEPENDENCIES:
+  - firebase_auth (from `Pods/.symlinks/plugins/firebase_auth-0.5.1/ios`)
   - firebase_messaging (from `Pods/.symlinks/plugins/firebase_messaging-0.2.0/ios`)
   - Flutter (from `Pods/.symlinks/flutter/ios`)
   - flutter_facebook_login (from `Pods/.symlinks/plugins/flutter_facebook_login-1.0.3/ios`)
@@ -88,6 +100,8 @@ DEPENDENCIES:
   - location (from `Pods/.symlinks/plugins/location-1.1.7/ios`)
 
 EXTERNAL SOURCES:
+  firebase_auth:
+    :path: Pods/.symlinks/plugins/firebase_auth-0.5.1/ios
   firebase_messaging:
     :path: Pods/.symlinks/plugins/firebase_messaging-0.2.0/ios
   Flutter:
@@ -108,8 +122,10 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: e08ccfcefa7bc1347a07c276dac9bf6c7fe57024
   FBSDKLoginKit: 99797ac39252fef6f72600b886f6ee60b4b29cab
   Firebase: 92c6ba593e32db0defde464a9adc981d5cb49f97
+  firebase_auth: 499d5bfb249606a276f6bddf292a3b2d44139f75
   firebase_messaging: cd056e1b7baf9adddec56402c3de4158aac3c5fa
   FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
+  FirebaseAuth: d040bb7a9db6dfc29d0e7ec82d48be51352b2581
   FirebaseCore: 872307b001bbefda1dfa0dbfffa50a6919023d4a
   FirebaseInstanceID: d2058a35e9bebda1b6dd42486b84917bde552a9d
   FirebaseMessaging: db0e01c52ef7e1f42846431273558107d084ede4

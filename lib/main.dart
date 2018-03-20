@@ -6,6 +6,10 @@ import 'package:flutter_tests/map.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import 'package:location/location.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+final GoogleSignIn _googleSignIn = new GoogleSignIn(scopes: ['email','https://www.googleapis.com/auth/contacts.readonly']);
+final FirebaseAuth _auth = FirebaseAuth.instance;
 
 void main() => runApp(new MyApp());
 
@@ -51,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
 
     _firebaseMessaging.requestNotificationPermissions();
-    
+
     _firebaseMessaging.configure(
       onMessage: (Map<String, dynamic> message) {
         print("----------> onMessage: $message");
@@ -188,6 +192,38 @@ class _MyHomePageState extends State<MyHomePage> {
                   showFCMToken(_firebaseMessaging);
                 }
               ),
+            ),
+            new Container(
+              margin: const EdgeInsets.all(10.0),
+              width: 200.0,
+              child: new RaisedButton(
+                child: const Text('Firebase Auth: Google'),
+                color: Colors.white,
+                textColor: const Color(0xFF781DB0),
+                shape: new RoundedRectangleBorder(
+                  side: new BorderSide(width: 2.0, color: const Color(0xFF781DB0)),
+                  borderRadius: new BorderRadius.circular(50.0)
+                ),
+                onPressed: () {
+                  _testSignInWithGoogle();
+                }
+              ),
+            ),
+            new Container(
+              margin: const EdgeInsets.all(10.0),
+              width: 200.0,
+              child: new RaisedButton(
+                child: const Text('Firebase Auth: Facebook'),
+                color: Colors.white,
+                textColor: const Color(0xFF781DB0),
+                shape: new RoundedRectangleBorder(
+                  side: new BorderSide(width: 2.0, color: const Color(0xFF781DB0)),
+                  borderRadius: new BorderRadius.circular(50.0)
+                ),
+                onPressed: () {
+                  _testSignInWithFacebook();
+                }
+              ),
             )
           ],
         ),
@@ -214,13 +250,6 @@ loginF() async {
 }
 
 loginG() async {
-  GoogleSignIn _googleSignIn = new GoogleSignIn(
-    scopes: [
-      'email',
-      'https://www.googleapis.com/auth/contacts.readonly',
-    ],
-  );
-
   try {
     await _googleSignIn.signIn();
     print('----------> Logged in: ${_googleSignIn.currentUser.displayName}, ${_googleSignIn.currentUser.email}.');
@@ -252,3 +281,37 @@ showFCMToken(FirebaseMessaging instance) async {
   var token = await instance.getToken();
   print('---------> FCM Token: $token');
 }
+
+_testSignInWithGoogle() async {
+    final GoogleSignInAccount googleUser = await _googleSignIn.signIn();
+    final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
+    final FirebaseUser user = await _auth.signInWithGoogle(
+      accessToken: googleAuth.accessToken,
+      idToken: googleAuth.idToken,
+    );
+    assert(user.email != null);
+    assert(user.displayName != null);
+    assert(!user.isAnonymous);
+    assert(await user.getIdToken() != null);
+
+    final FirebaseUser currentUser = await _auth.currentUser();
+    assert(user.uid == currentUser.uid);
+
+    print('---------> signInWithGoogle succeeded: $user');
+  }
+
+  _testSignInWithFacebook() async {
+    var facebookLogin = new FacebookLogin();
+    var result = await facebookLogin.logInWithReadPermissions(['email']);
+
+    final FirebaseUser user = await _auth.signInWithFacebook(accessToken: result.accessToken.token);
+    assert(user.email != null);
+    assert(user.displayName != null);
+    assert(!user.isAnonymous);
+    assert(await user.getIdToken() != null);
+
+    final FirebaseUser currentUser = await _auth.currentUser();
+    assert(user.uid == currentUser.uid);
+
+    print('---------> signInWithFacebook succeeded: $user');
+  }
