@@ -51,7 +51,19 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
 
     _firebaseMessaging.requestNotificationPermissions();
-    _firebaseMessaging.configure();
+    
+    _firebaseMessaging.configure(
+      onMessage: (Map<String, dynamic> message) {
+        print("----------> onMessage: $message");
+      },
+      onLaunch: (Map<String, dynamic> message) {
+        print("----------> onLaunch: $message");
+      },
+      onResume: (Map<String, dynamic> message) {
+        print("----------> onResume: $message");
+      },
+    );
+
     showFCMToken(_firebaseMessaging);
   }
 
