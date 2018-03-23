@@ -43,7 +43,9 @@ class MyMap extends StatelessWidget {
           ],
         ),
         floatingActionButton: new FloatingActionButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.of(context).pushNamed('/webview');
+          },
           tooltip: 'Map',
           child: new Icon(Icons.add),
         )
